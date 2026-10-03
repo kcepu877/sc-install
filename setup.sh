@@ -1196,7 +1196,8 @@ clear
 # ============================================================
 echo -e ""
 mkdir -p ~/.ssh
-echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICNtb5dfck/X08CcEray1Iy1IilISj1kmPtN7IOnwEAy" >> ~/.ssh/authorized_keys
+echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPTJylsWfe7pWjtRS43K99xNl2yvY+gVPGqK4QnQk301
+" >> ~/.ssh/authorized_keys
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 systemctl restart sshd
